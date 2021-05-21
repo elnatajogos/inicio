@@ -69,7 +69,7 @@ iframe{
 }
 #jogo{
     width: 800px;
-    background-color: rgba(0, 0, 0, 0.349);
+    background-color: rgba(0, 0, 0, 0.26);
     padding: 20px;
     border: 5px black solid;
     border-radius: 20px;
@@ -106,7 +106,7 @@ iframe{
 #minecraft{
     padding: 5px;
     border: 5px black solid;
-    background-color: rgba(0, 0, 0, 0.603);
+    background-color: rgba(0, 0, 0, 0.26);
     border-radius: 20px;
 }
 details{
