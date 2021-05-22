@@ -138,3 +138,13 @@ a:hover{
 a{
     text-decoration: none;
 }
+a:hover{
+    text-decoration: none;
+}
+.titles-c{
+    background-color: rgba(0, 0, 0, 0.603);
+    color: white;
+    transition: .8s;
+    border-radius: 20px;
+    padding: 5px;
+}
