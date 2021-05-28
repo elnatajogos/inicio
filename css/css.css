@@ -194,3 +194,12 @@ a:hover{
     width: 800;
     border-radius: 20px;
 }
+#erro{
+    background-color: rgba(0, 0, 0, 0.603);
+    color: white;
+    border-radius: 20px;
+}
+#erro a{
+    text-decoration: none;
+    color: white;
+}
