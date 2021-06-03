@@ -288,4 +288,17 @@ a:hover{
      
     
   }
+  #menu ul li #c-n{
+    padding: 2px 10px;
+    display: inline-block;
+    text-decoration: none;
+    border-bottom: 3px solid black;
+    color: rgb(255, 255, 255);
+    transition: rgb(255, 255, 255) .5s;
+}
+#menu ul li #c-n:hover{
+    color: rgb(255, 255, 255);
+    border-bottom: 3px solid rgb(255, 255, 255);
+    transition:  .5s;
+}
 
