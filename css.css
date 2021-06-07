@@ -1,0 +1,314 @@
+html{
+    font-family: 'Poppins', sans-serif;
+}
+#ti{
+    text-decoration: none;
+    color: white;
+    border-left-color: black;
+}
+#header{
+    background-color: rgba(0, 0, 0, 0.603);
+    min-height: 60px;
+    padding: 3px;
+    border: 5px;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 2;
+    box-shadow: 10px 10px 10px rgb(0, 0, 0);
+}
+#title{
+    font-size: 30px;
+}
+#t{
+    transition: .8s;
+    color: white;
+    font-family:'Poppins', sans-serif;
+}
+#t:hover{
+    transition: .5s;
+    color: black;
+}
+.titles{
+    background-color: rgba(0, 0, 0, 0.603);
+    color: white;
+    transition: .8s;
+    border-radius: 20px;
+}
+.titles:hover{
+    background-color: rgba(0, 0, 0, 0.603);
+    color: black;
+    transition: .5s;
+}
+.zips{
+    text-decoration: none;
+    background-color: rgba(0, 0, 0, 0.603);
+    color: white;
+    padding: 5px;
+}
+#tx{
+    display: inline;
+}
+::-webkit-scrollbar{
+    width: 12px;
+    background-color: white;
+}
+::-webkit-scrollbar-button{
+    background-color: white;
+    height: 5px;
+}
+::-webkit-scrollbar-thumb{
+    background-color: rgb(0, 0, 0);
+    border-radius: 20px;
+    transition: .1;
+}
+::-webkit-scrollbar-thumb:hover{
+    background-color: rgba(0, 0, 0, 0.637);
+    transition: .5s;    
+}
+::selection{
+    background-color: rgb(255, 255, 255);
+    color: black;
+    border: 2px solid white;
+    border-radius: 10px;
+}
+#jogo{
+    width: 800px;
+    background-color: rgba(0, 0, 0, 0.26);
+    padding: 20px;
+    border: 5px black solid;
+    border-radius: 20px;
+}
+#t-jogo{
+    transition: .8s;
+    color: white;
+}
+#t-jogo:hover{
+    transition: .5s;
+    color: black;
+}
+#rodape{
+    width: 100%;
+    height: 50px;
+    padding: 10px;
+    color:white;
+}
+#t-r{
+    background-color: black;
+    padding: 40px;
+}
+.subtitles{
+    background-color: rgba(0, 0, 0, 0.603);
+    color: white;
+    transition: .8s;
+    border-radius: 20px;
+}
+.subtitles:hover{
+    background-color: rgba(0, 0, 0, 0.603);
+    color: black;
+    transition: .5s;
+}
+.classes{
+    padding: 5px;
+    border: 5px black solid;
+    background-color: rgba(0, 0, 0, 0.26);
+    border-radius: 20px;
+}
+details{
+    color: white;
+}
+a:hover{
+    text-decoration: white underline;
+}
+#cima{
+    text-decoration: none;
+    bottom: 2em;
+    right: 2em;
+    display: inline;
+}
+#t-cima{
+    color: white;
+    background-color: rgba(0, 0, 0, 0.603);
+    padding: 5px;
+    border-radius: 20px;
+}
+#creditos{
+    background-color: rgba(0, 0, 0, 0.603);
+    color: white;
+    border-radius: 20px;
+    padding: 4px;
+}
+#creditos #besound{
+    color: yellowgreen;
+}
+a{
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: none;
+}
+.titles-c{
+    background-color: rgba(0, 0, 0, 0.603);
+    color: white;
+    transition: .8s;
+    border-radius: 20px;
+    padding: 5px;
+}
+.postagens{
+    background-color: rgba(255, 255, 255, 0.815);
+    background-size: 100%;
+    padding: 10px;
+    border-radius: 20px;
+    border: 5px black solid;
+    color: black;
+    text-align: justify;
+    font-size: large;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.719);
+}
+.postagens p{
+    padding: 5px;
+}
+.t-posts{
+    color: white;
+}
+#menu{
+    font-family: arial
+    padding 2px;
+}
+#menu ul{
+    background-color: rgba(0, 0, 0, 0.603);
+    padding: 2px;
+    margin: 0px;
+    font-family: arial;
+    border-radius: 20px;
+}
+#menu ul li{
+    display: inline;
+}
+#menu ul li a{
+    padding: 2px 10px;
+    display: inline-block;
+    text-decoration: none;
+    border-bottom: 3px solid black;
+    color: rgb(255, 255, 255);
+    transition: rgb(255, 255, 255) .5s;
+}
+#menu ul li a:hover{
+    color: rgb(255, 255, 255);
+    border-bottom: 3px solid rgb(255, 255, 255);
+    transition:  .5s;
+}
+#j-iframe{
+    height: 270px;
+    width: 800;
+    border-radius: 20px;
+}
+#erro{
+    background-color: rgba(0, 0, 0, 0.603);
+    color: white;
+    border-radius: 20px;
+}
+#erro a{
+    text-decoration: none;
+    color: white;
+}
+.fundo{
+    animation: scales 3s alternate  infinite;
+    transform-origin: center;
+  }
+  .pao-baixo{
+     animation: rotatepao 14s cubic-bezier(.1,.49,.41,.97)  infinite;
+    transform-origin: center;
+  }
+  .pao-cima{
+     animation: rotatepao 7s 1s cubic-bezier(.1,.49,.41,.97)  infinite;
+    transform-origin: center;
+  }
+  .olhos{animation: olhos   2s  alternate  infinite;
+     transform-origin: center;
+  }
+  
+  .left-sparks{animation: left-sparks   4s  alternate  infinite;
+        transform-origin: 150px 156px;
+  }
+  
+  .right-sparks{animation: left-sparks   4s  alternate  infinite;
+        transform-origin: 310px 150px;
+  }
+  
+  .olhos{animation: olhos   2s  alternate  infinite;
+     transform-origin: center;
+  }
+  @keyframes scales{
+    from { transform: scale(0.98)}
+    to{ transform: scale(1)}
+  }
+  
+  @keyframes rotatepao{
+    0% { transform:  rotate(0deg)}
+    50% , 60%{ transform:  rotate(-20deg)}
+    100%{  transform:  rotate(0deg) }
+   
+  }
+  
+  @keyframes olhos{
+    0%{
+      transform: rotateX(0deg);
+    }
+     100%{
+      transform: rotateX(30deg);
+    }
+  }
+  
+  @keyframes left-sparks{
+    0%{
+      opacity: 0; 
+    }
+    
+  }
+  
+  
+  .main{
+    
+    min-height: 600px;
+    margin: 0px auto;
+    width: auto;
+    max-width: 460px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .path {
+    stroke-dasharray: 300;
+    stroke-dashoffset: 300;
+    animation: dash 4s   alternate infinite;
+  }
+  
+  @keyframes dash{
+     0%, 30%{
+       fill: 4B4B62;
+      stroke-dashoffset:   0;
+    }
+     80%,100%{
+       fill: transparent;
+      stroke-dashoffset:  -200;
+    }
+     
+    
+  }
+  #menu ul li #c-n{
+    padding: 2px 10px;
+    display: inline-block;
+    text-decoration: none;
+    border-bottom: 3px solid black;
+    color: rgb(255, 255, 255);
+    transition: rgb(255, 255, 255) .5s;
+}
+#menu ul li #c-n:hover{
+    color: rgb(255, 255, 255);
+    border-bottom: 3px solid rgb(255, 255, 255);
+    transition:  .5s;
+}
+
